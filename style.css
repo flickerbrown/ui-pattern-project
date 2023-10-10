@@ -84,7 +84,19 @@ body {
     font-family: 'Pixelify Sans';
 }
 
-div#A {float: left; padding:5px; border:1px solid #eeeeee; width:70%; background:#222222; opacity:0.85; position:absolute; left:43px; bottom:48px; z-index:1000; font: #eeeeee; height: 150px;}     
+div#A {
+    float: left; 
+    padding:5px; 
+    border:1px solid #eeeeee; 
+    width:70%; background:#222222;
+    opacity:0.85; position:absolute;
+    left:50px; 
+    bottom:48px;
+    z-index:1000; 
+    font: #eeeeee; 
+    height: 150px;
+    overflow: auto;
+}     
 div#pagetitle {float: left; padding:5px; border:0px; width:300px; position:absolute; left:5px; top:5px; z-index:1000;}    
 
 h1{
