@@ -1,0 +1,97 @@
+.slider { 
+	width: 100%; 
+	position: relative; 
+} 
+
+.slider ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+} 
+
+.slider li { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	opacity: 0; 
+	transition: opacity 1s ease-in-out; 
+} 
+
+img { 
+	height: 95vh; 
+	width: 95%; 
+    object-fit: cover;
+} 
+
+.slider li.active { 
+	opacity: 1; 
+} 
+
+.slider .caption { 
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	width: 100%; 
+	background-color: rgba(0, 0, 0, 0.5); 
+	color: #fff; 
+	font-size: 18px; 
+	padding: 10px; 
+	text-align: center; 
+}
+button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: bold ;
+    font-stretch: ;
+    font-size: 300px;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+body {
+    background-color: #111111;
+    font-family: 'Pixelify Sans';
+}
+
+div#A {float: left; padding:5px; border:1px solid #eeeeee; width:70%; background:#222222; opacity:0.85; position:absolute; left:43px; bottom:48px; z-index:1000; font: #eeeeee; height: 150px;}     
+div#pagetitle {float: left; padding:5px; border:0px; width:300px; position:absolute; left:5px; top:5px; z-index:1000;}    
+
+h1{
+    font-size: 16px;
+    height: 17px
+}
+h2 {
+    font-size: 12px;
+    height: 10px;
+}
